@@ -1,7 +1,7 @@
 # Singletone
 
 Powerful and easy to use JavaScript implementation of the Singleton design pattern.
-Creates singleton instance which nobody can to change or replace.
+It creates singleton instance which nobody can to change or replace.
 
 ## Examples
 
