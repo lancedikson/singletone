@@ -6,9 +6,15 @@
   "scripts": {
     "test": "mocha"
   },
-  "keywords": "singleton design pattern singletone",
+  "keywords": [
+    "singleton",
+    "design",
+    "pattern",
+    "singletone"
+  ],
   "author": "Denis Demchenko",
   "license": "MIT",
+  "repository": "git@github.com:lancedikson/singletone.git",
   "devDependencies": {
     "mocha": "^2.3.4",
     "should": "^8.0.2"
