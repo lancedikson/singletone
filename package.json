@@ -1,0 +1,16 @@
+{
+  "name": "singletone",
+  "version": "1.0.0",
+  "description": "Powerful JavaScript singleton design pattern implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": "singleton design pattern singletone",
+  "author": "Denis Demchenko",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "should": "^8.0.2"
+  }
+}
