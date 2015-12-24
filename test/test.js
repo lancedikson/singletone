@@ -3,7 +3,6 @@ var singletone = require('../index');
 
 /**
  * Singleton constructor
- * @param videoId
  * @returns {*}
  * @constructor
  */
