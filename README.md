@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lancedikson/singletone.svg?branch=master)](https://travis-ci.org/lancedikson/singletone)
+
 # Singletone
 
 Powerful and easy to use JavaScript implementation of the Singleton design pattern.
