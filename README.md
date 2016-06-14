@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/lancedikson/singletone.svg?branch=master)](https://travis-ci.org/lancedikson/singletone)
+
 # Singletone
 
 Powerful and easy to use JavaScript implementation of the Singleton design pattern.
@@ -10,16 +12,16 @@ var singletone = require('singletone');
 
 function Player() {
   // save the instance local variable for the moment
-  var instance = singletone(this);
+  var singetonInstance = singletone(this);
 
   // rewrite our singleton constructor
-  Player = instance.constructor;
+  Player = singetonInstance.constructor;
 
   // add some instance properties
   this.status = "stopped";
 
   // return singleton instance
-  return instance;
+  return singetonInstance;
 }
 
 Player.prototype.play = function () {
