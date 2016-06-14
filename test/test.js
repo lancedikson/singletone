@@ -25,7 +25,7 @@ Player.prototype.stop = function () {
 
 var playerInstance = new Player();
 
-describe('Singllone', function() {
+describe('Singletone', function() {
   it('should return instance for each creation', function () {
 
     var playerInstance2 = new Player();
