@@ -49,3 +49,7 @@ var player2 = Player();
 console.log(player2.status);
 // "playing"
 ```
+
+## Contribution
+
+If you want to send some PR, checkout `develop` branch please. It contains the latest commits.
