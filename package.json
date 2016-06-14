@@ -1,6 +1,6 @@
 {
   "name": "singletone",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Powerful JavaScript singleton design pattern implementation",
   "main": "index.js",
   "scripts": {
