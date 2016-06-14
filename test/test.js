@@ -1,6 +1,6 @@
 var should = require('should');
 var singletone = require('../index');
-
+var currentTrack = 'Chris Singleton - Tonight';
 /**
  * Singleton constructor
  * @returns {*}
@@ -43,6 +43,8 @@ Player2.prototype.stop = function () {
 var playerInstance = new Player();
 var playerInstance2 = new Player2();
 
+playerInstance.constructor.prototype.currentTrack = currentTrack;
+
 describe('Singletone', function() {
   it('should return instance for each creation', function () {
 
@@ -70,5 +72,9 @@ describe('Singletone', function() {
 
   it('should have name of constructor', function () {
     playerInstance.constructor.name.should.be.equal('Player');
+  });
+
+  it('should have property assigned by constructor\'s prototype', function () {
+    playerInstance.currentTrack.should.be.equal(currentTrack);
   });
 });

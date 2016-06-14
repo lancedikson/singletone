@@ -17,16 +17,16 @@ var singletone = require('singletone');
 
 function Player() {
   // save the instance local variable for the moment
-  var singetonInstance = singletone(this);
+  var singletonInstance = singletone(this);
 
   // rewrite our singleton constructor
-  Player = singetonInstance.constructor;
+  Player = singletonInstance.constructor;
 
   // add some instance properties
   this.status = "stopped";
 
   // return singleton instance
-  return singetonInstance;
+  return singletonInstance;
 }
 
 Player.prototype.play = function () {
@@ -49,6 +49,8 @@ var player2 = Player();
 console.log(player2.status);
 // "playing"
 ```
+
+For more information and examples look at the tests.
 
 ## Contribution
 
