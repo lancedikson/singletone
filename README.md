@@ -4,6 +4,11 @@
 
 Powerful and easy to use JavaScript implementation of the Singleton design pattern.
 It creates singleton instance which nobody can to change or replace.
+Now it supports Node.js (CommonJS modules) only, but frontend support needed (AMD, etc.). Help wanted.
+
+## Install
+
+`npm i --save singletone`
 
 ## Examples
 
