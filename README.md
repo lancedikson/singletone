@@ -50,6 +50,8 @@ console.log(player2.status);
 // "playing"
 ```
 
+For more information and examples look at the tests.
+
 ## Contribution
 
 If you want to send some PR, checkout `develop` branch please. It contains the latest commits.
